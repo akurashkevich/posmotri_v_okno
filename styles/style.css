@@ -99,3 +99,55 @@ ol {
 .content__video-card-description-container {
   flex: 1;
 }
+
+.search-form__fieldset-title,
+.search-form__label-text {
+  color: #fff;
+  font-family: "Fira Sans Condensed";
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.search-form__fieldset-title {
+  margin-bottom: 5px;
+}
+
+.title {
+  color: #fff;
+  font-family: Oswald;
+  font-weight: 700;
+  font-size: 75px;
+  font-style: normal;
+  line-height: 0.94;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
+}
+
+.content__card-link {
+  text-decoration: none;
+}
+
+.content__video-card-title {
+  margin-bottom: 6px;
+  color: #fff;
+  font-family: Oswald;
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.content__video-card-description {
+  color: #fff;
+  font-family: "Fira Sans Condensed";
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 0.9;
+}
