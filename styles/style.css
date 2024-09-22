@@ -81,15 +81,15 @@ ol {
 
 .search-form__label:hover:not(:has(.search-form__textfield)),
 .button:hover,
-.content__list-item:hover {
-  text-decoration-line: underline;
+.content__card-link:hover {
+  text-decoration: underline #fff;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
 }
 
 .search-form__textfield:focus,
 .button:focus,
-.content__list-item:focus {
+.content__card-link:focus {
   outline: none;
 }
 
