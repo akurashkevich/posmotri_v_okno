@@ -54,20 +54,21 @@ ol {
   display: flex;
   align-items: flex-end;
   column-gap: 30px;
-  width: 1140px;
-  margin: 133px 30px;
+  max-inline-size: 1140px;
+  margin-block: 133px;
+  margin-inline: 30px;
 }
 
 .result__video-container {
   position: relative;
-  width: 711px;
-  height: 386px;
-  margin-bottom: 16px;
+  inline-size: 711px;
+  block-size: 386px;
+  margin-block-end: 16px;
 }
 
 .result__video {
-  width: 100%;
-  height: 100%;
+  inline-size: 100%;
+  block-size: 100%;
   object-fit: cover;
 }
 
@@ -103,7 +104,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  margin-bottom: 5px;
+  margin-block-end: 5px;
   cursor: default;
 }
 
@@ -119,17 +120,15 @@ ol {
 .search-form__label {
   display: flex;
   gap: 5px;
-  width: fit-content;
+  inline-size: fit-content;
   cursor: pointer;
 }
 
 .search-form__textfield {
-  width: 225px;
-  height: 27px;
-  border-top: 1px solid #fff;
-  border-right: none;
-  border-bottom: 1px solid #fff;
-  border-left: none;
+  inline-size: 225px;
+  block-size: 27px;
+  border-block: 1px solid #fff;
+  border-inline: none;
   color: rgba(255, 255, 255, 0.7);
   font-family: "Fira Sans Condensed";
   font-weight: 400;
@@ -145,15 +144,15 @@ ol {
   justify-content: center;
   align-items: center;
   align-self: center;
-  width: 19px;
-  height: 19px;
+  inline-size: 19px;
+  block-size: 19px;
   border: 1px solid #fff;
 }
 
 .search-form__submit-button {
   align-self: end;
-  width: 194px;
-  height: 34px;
+  inline-size: 194px;
+  block-size: 34px;
 }
 
 .search-form__textfield:active {
@@ -167,8 +166,8 @@ ol {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   content: "";
-  width: 15px;
-  height: 15px;
+  inline-size: 15px;
+  block-size: 15px;
   background-color: #fff;
 }
 
@@ -196,17 +195,18 @@ ol {
 
 .more-button {
   align-self: end;
-  width: 399px;
-  height: 34px;
-  margin: 2px;
+  inline-size: 399px;
+  block-size: 34px;
+  margin-inline: 2px;
+  margin-block: 2px;
 }
 
 .content__details {
   display: flex;
   flex-direction: column;
   gap: 26px;
-  width: 100%;
-  height: 100%;
+  inline-size: 100%;
+  block-size: 100%;
 }
 
 .title {
@@ -221,12 +221,12 @@ ol {
 
 .content__list {
   position: relative;
-  height: 298px;
+  block-size: 298px;
   overflow-y: auto;
 }
 
 .content__list-item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-block-end: 30px;
 }
 
 .content__video-card {
@@ -235,8 +235,8 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  width: 194px;
-  height: 103px;
+  inline-size: 194px;
+  block-size: 103px;
 }
 
 .content__video-card-description-container {
@@ -252,7 +252,7 @@ ol {
 }
 
 .content__video-card-title {
-  margin-bottom: 6px;
+  margin-block-end: 6px;
   color: #fff;
   font-family: Oswald;
   font-weight: 700;
@@ -277,7 +277,8 @@ ol {
 
 .content__card-link {
   display: block;
-  padding: 2px;
+  padding-inline: 2px;
+  padding-block: 2px;
 }
 
 .content__card-link:focus-visible {
