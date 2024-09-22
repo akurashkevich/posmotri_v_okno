@@ -249,6 +249,9 @@ ol {
 
 .content__card-link {
   text-decoration: none;
+  display: block;
+  padding-inline: 2px;
+  padding-block: 2px;
 }
 
 .content__video-card-title {
@@ -273,12 +276,6 @@ ol {
 
 .content__card-link_current {
   background: #545050;
-}
-
-.content__card-link {
-  display: block;
-  padding-inline: 2px;
-  padding-block: 2px;
 }
 
 .content__card-link:focus-visible {
